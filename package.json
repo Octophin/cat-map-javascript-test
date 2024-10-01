@@ -1,0 +1,14 @@
+{
+  "name": "cat-map-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
