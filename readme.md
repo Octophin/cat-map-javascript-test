@@ -1,17 +1,15 @@
 # Octophin Cat Map Test
 
-The task is to take a csv of cats (provided) and write a script to turn it into geolocated points using the GeoJSON standard: https://en.wikipedia.org/wiki/GeoJSON so that it can be read by a web map.
+The task is to take a csv of cats living near our office (file provided) and write a script to turn it into geolocated points using the GeoJSON standard: https://en.wikipedia.org/wiki/GeoJSON so that it can be read by a web map.
 
-This GeoJSON should then be shown in a circle or marker on the map with information about each cat in a popup using the MapboxGl library https://docs.mapbox.com/mapbox-gl-js/guides/.
+This GeoJSON should then be shown in circles or markers on the map with information about each cat in a popup using the MapboxGl library https://docs.mapbox.com/mapbox-gl-js/guides/.
 
 ## Project contents
-
-The project contains:
 
 * A CSV with cat information.
 * A `server.js` file (node.js) that can be run using `npm start` and can be seen at `http://localhost:3000`. This is using the Express framework. https://expressjs.com/
 * A public folder with frontend JavaScript, CSS and HTML that shows the map using MapboxGl.
-* An image folder with cat images in the public folder. All of these are always a jpg file exactly matching the cat name.
+* An image folder with cat images in the public folder. All of these are always a jpg file exactly matching the cat's name.
 
 ## Task
 
