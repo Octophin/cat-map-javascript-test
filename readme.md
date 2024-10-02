@@ -14,7 +14,7 @@ This GeoJSON should then be shown as circles or markers on a map with informatio
 ## Task
 
 * Turn the CSV into GeoJSON representing the cats and their locations
-* Make the GeoJSON show on the map. This can be either as circles or markers. 
+* Get this GeoJSON to the frontend and show it on the map. This can be either as circles or markers. 
 * Make the names and images show in a popup for each cat when clicked
 * Change the circle / marker colour depending on the cat category (there is a category_colour column in the csv already provided)
 
