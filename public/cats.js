@@ -5,3 +5,6 @@ const map = new mapboxgl.Map({
   center: [-0.10588288303432236, 51.518095113618116],
   zoom: 14,
 });
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
