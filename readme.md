@@ -1,6 +1,6 @@
 # Octophin Cat Map Test
 
-The task is to take a csv of cats living near our office (file provided) and programatically turn this csv into JSON containing the data. This JSON should be transformed into the GeoJSON standard (https://en.wikipedia.org/wiki/GeoJSON) so that it can be read as points by a web map.
+The task is to take a csv of cats living near our office (file provided) and programatically turn this csv to JSON containing the data. This JSON should be transformed into the GeoJSON standard (https://en.wikipedia.org/wiki/GeoJSON) so that it can be read as points by a web map.
 
 This GeoJSON should then be shown as circles or markers on a map with information about each cat in a popup using the MapboxGl library https://docs.mapbox.com/mapbox-gl-js/guides/.
 
