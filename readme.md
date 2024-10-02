@@ -1,21 +1,22 @@
 # Octophin Cat Map Test
 
-The task is to take a csv of cats living near our office (file provided) and write a script to turn it into geolocated points using the GeoJSON standard: https://en.wikipedia.org/wiki/GeoJSON so that it can be read by a web map.
+The task is to take a csv of cats living near our office (file provided) and programatically turn this csv into JSON containing the data. This JSON should be transformed into the GeoJSON standard (https://en.wikipedia.org/wiki/GeoJSON) so that it can be read as points by a web map.
 
-This GeoJSON should then be shown in circles or markers on the map with information about each cat in a popup using the MapboxGl library https://docs.mapbox.com/mapbox-gl-js/guides/.
+This GeoJSON should then be shown as circles or markers on a map with information about each cat in a popup using the MapboxGl library https://docs.mapbox.com/mapbox-gl-js/guides/.
 
 ## Project contents
 
 * A CSV with cat information.
-* A `server.js` file (node.js) that can be run using `npm start` and can be seen at `http://localhost:3000`. This is using the Express framework. https://expressjs.com/
+* A `server.js` file (node.js) that can be run using `npm start` and can be seen at `http://localhost:3000`. This uses the Express framework: https://expressjs.com/
 * A public folder with frontend JavaScript, CSS and HTML that shows the map using MapboxGl.
 * An image folder with cat images in the public folder. All of these are always a jpg file exactly matching the cat's name.
 
 ## Task
 
-* Make the cats in the CSV show on the map. This can be either as a circle or a marker. 
-* Make the cat name and image show in a popup for each cat when clicked
-* Change the circle / marker colour depending on the cat category (there is a category_colour column in the csv)
+* Turn the CSV into GeoJSON representing the cats and their locations
+* Make the GeoJSON show on the map. This can be either as circles or markers. 
+* Make the names and images show in a popup for each cat when clicked
+* Change the circle / marker colour depending on the cat category (there is a category_colour column in the csv already provided)
 
 ## Guidelines
 
@@ -24,4 +25,4 @@ This GeoJSON should then be shown in circles or markers on the map with informat
 * You have full access to the internet to search through documentation
 * You can use any libraries or tools on the frontend or backend you want, including throwing out the current tech stack
 * Ideal solutions will automatically update the map (on page refresh) whenever the CSV is updated
-* You will be assessed on the serverside and clientside JavaScript, not the styling / presentation of the map and its popups.
+* You will be assessed on the server-side and client-side JavaScript, not the styling and presentation of the map and its popups.
