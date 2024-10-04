@@ -4,6 +4,8 @@ The task is to take a csv of cats living near our office (file provided) and pro
 
 This GeoJSON should then be shown as circles or markers on a map with information about each cat in a popup using the MapboxGl library https://docs.mapbox.com/mapbox-gl-js/guides/.
 
+Ideal solutions will automatically update the map (on page refresh) whenever the CSV is updated.
+
 ## Project contents
 
 * A CSV with cat information.
@@ -24,5 +26,4 @@ This GeoJSON should then be shown as circles or markers on a map with informatio
 * Anything that gets the desired result on the map is accepted
 * You have full access to the internet to search through documentation
 * You can use any libraries or tools on the frontend or backend you want, including throwing out the current tech stack
-* Ideal solutions will automatically update the map (on page refresh) whenever the CSV is updated
 * You will be assessed on the server-side and client-side JavaScript, not the styling and presentation of the map and its popups.
